@@ -1,6 +1,6 @@
 # logger README
 
-This is the README for your extension "logger". After writing up a brief description, we recommend including the following sections.
+"logger". After writing up a brief description, we recommend including the following sections.
 
 ## Features
 

@@ -3,6 +3,7 @@
 	"displayName": "logger",
 	"description": "logger for macbook pro",
 	"version": "0.0.1",
+	"publisher": "logger",
 	"engines": {
 		"vscode": "^1.53.0"
 	},

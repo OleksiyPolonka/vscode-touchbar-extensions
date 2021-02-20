@@ -24,7 +24,7 @@ export function activate(context: vscode.ExtensionContext) {
 		const text = editor.document.getText(editor.selection);
 
 		if (typeof text !== 'undefined' && text !== '') {
-			editor.insertSnippet(new vscode.SnippetString(`console.log(${text}: ', ${text});\n`), new vscode.Position(position.line + 1, 0));
+			editor.insertSnippet(new vscode.SnippetString(`console.log('${text}: ', ${text});\n`), new vscode.Position(position.line + 1, 0));
 		} else {
 			editor.insertSnippet(new vscode.SnippetString('console.log();\n'), new vscode.Position(position.line, 0));
 		}
