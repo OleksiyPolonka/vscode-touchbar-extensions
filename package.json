@@ -1,7 +1,7 @@
 {
   "name": "logger",
 	"displayName": "logger",
-	"description": "logger for macbook pro",
+	"description": "logger for macBook pro",
 	"version": "0.0.1",
 	"publisher": "logger",
 	"engines": {
